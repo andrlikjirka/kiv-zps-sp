@@ -1,1 +1,1 @@
-# kiv-zps-sp
+# Semestrální práce z předmětu KIV-ZPS
