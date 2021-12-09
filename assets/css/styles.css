@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  display: block;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class^="my-col-"] {
+  width: 100%;
+  float: left;
+  padding: 15px;
+}
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+  padding: 0px 32px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  margin: auto;
+}
+
+nav {
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 32px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 8px 12px;
+  width: 150px;
+  margin: auto;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: gold;
+  border-radius: 7px;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.875rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  color: rgba(68, 68, 68);
+  padding-bottom: 32px;
+}
+
+h2 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+.clanek {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  transition: transform 0.3s; /* Animation */
+}
+
+.clanek:hover {
+  transform: scale(1.02);
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: 16px;
+}
+
+.clanek a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 2px;
+}
+
+.oddeleni-prispevku {
+  margin-bottom: 32px;
+  border-top: 1px solid gold;
+}
+
+footer {
+  padding: 32px 0 32px 0;
+  text-align: center;
+}
+
+#copyright {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+#footer-text {
+  font-size: 0.75rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .my-col-sm-1 {
+    width: 8.33%;
+  }
+  .my-col-sm-2 {
+    width: 16.66%;
+  }
+  .my-col-sm-3 {
+    width: 25%;
+  }
+  .my-col-sm-4 {
+    width: 33.33%;
+  }
+  .my-col-sm-5 {
+    width: 41.66%;
+  }
+  .my-col-sm-6 {
+    width: 50%;
+  }
+  .my-col-sm-7 {
+    width: 58.33%;
+  }
+  .my-col-sm-8 {
+    width: 66.66%;
+  }
+  .my-col-sm-9 {
+    width: 75%;
+  }
+  .my-col-sm-10 {
+    width: 83.33%;
+  }
+  .my-col-sm-11 {
+    width: 91.66%;
+  }
+  .my-col-sm-12 {
+    width: 100%;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .my-col-md-1 {
+    width: 8.33%;
+  }
+  .my-col-md-2 {
+    width: 16.66%;
+  }
+  .my-col-md-3 {
+    width: 25%;
+  }
+  .my-col-md-4 {
+    width: 33.33%;
+  }
+  .my-col-md-5 {
+    width: 41.66%;
+  }
+  .my-col-md-6 {
+    width: 50%;
+  }
+  .my-col-md-7 {
+    width: 58.33%;
+  }
+  .my-col-md-8 {
+    width: 66.66%;
+  }
+  .my-col-md-9 {
+    width: 75%;
+  }
+  .my-col-md-10 {
+    width: 83.33%;
+  }
+  .my-col-md-11 {
+    width: 91.66%;
+  }
+  .my-col-md-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .my-col-lg-1 {
+    width: 8.33%;
+  }
+  .my-col-lg-2 {
+    width: 16.66%;
+  }
+  .my-col-lg-3 {
+    width: 25%;
+  }
+  .my-col-lg-4 {
+    width: 33.33%;
+  }
+  .my-col-lg-5 {
+    width: 41.66%;
+  }
+  .my-col-lg-6 {
+    width: 50%;
+  }
+  .my-col-lg-7 {
+    width: 58.33%;
+  }
+  .my-col-lg-8 {
+    width: 66.66%;
+  }
+  .my-col-lg-9 {
+    width: 75%;
+  }
+  .my-col-lg-10 {
+    width: 83.33%;
+  }
+  .my-col-lg-11 {
+    width: 91.66%;
+  }
+  .my-col-lg-12 {
+    width: 100%;
+  }
+
+  header,
+  main {
+    margin: auto;
+    max-width: 42rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+}
