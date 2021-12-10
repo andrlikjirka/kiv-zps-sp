@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700");
 
 * {
-  display: block;
   scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
@@ -17,42 +16,40 @@
 [class^="my-col-"] {
   width: 100%;
   float: left;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 html {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(247, 253, 255);
   padding: 0px 32px;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
 }
 
-header {
-  margin: auto;
-}
-
 nav {
-  font-weight: 500;
-  font-size: 0.875rem;
   text-align: center;
   padding: 32px 0;
 }
 
 nav a {
+  font-weight: 500;
+  font-size: 0.875rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
   padding: 8px 12px;
-  width: 150px;
-  margin: auto;
+  width: 140px;
+  display: block;
+  margin: 0 auto 10px;
   transition: 0.3s;
 }
 
 nav a:hover {
-  background-color: gold;
+  background-color: rgb(28, 28, 102);
+  color: white;
   border-radius: 7px;
 }
 
@@ -68,7 +65,8 @@ p {
   font-weight: 400;
   line-height: inherit;
   color: rgba(68, 68, 68);
-  padding-bottom: 32px;
+  padding-bottom: 16px;
+  
 }
 
 h2 {
@@ -85,10 +83,10 @@ h2 {
 }
 
 .clanek:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
 }
 
-h4 {
+h3 {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -102,12 +100,67 @@ h4 {
 }
 
 .oddeleni-prispevku {
-  margin-bottom: 32px;
-  border-top: 1px solid gold;
+  margin: 32px 0;
+  border-top: 1px solid darkblue;
+}
+
+.obsah {
+  line-height: 200%;
+  padding-bottom: 16px;
+}
+
+.obsah li {
+  list-style-position: inside;
+}
+
+.obsah li a {
+  padding-left: 10px;
+  color: rgb(25, 25, 199);
+}
+
+ul {
+  list-style-position: inside;
+}
+
+ul li ul {
+  padding-left: 10px ;
+}
+
+title {
+    display: none;  
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  padding-bottom: 16px;
+}
+
+article {
+  margin-bottom: 16px;
+}
+
+#zdroje {
+  margin: 42px 0;
+}
+
+#zdroje ul {
+  list-style-position: inside;
+}
+
+#zdroje ul li {
+  font-style: italic;
+}
+
+#zdroje ul li a {
+  text-decoration: none;
+  color: inherit;
 }
 
 footer {
-  padding: 32px 0 32px 0;
+  padding: 50px 0 32px 0;
   text-align: center;
 }
 
@@ -115,11 +168,13 @@ footer {
   font-size: 0.8rem;
   font-weight: 500;
   margin-bottom: 8px;
+  display: block;
 }
 
 #footer-text {
   font-size: 0.75rem;
 }
+
 
 @media only screen and (min-width: 576px) {
   .my-col-sm-1 {
@@ -159,13 +214,16 @@ footer {
     width: 100%;
   }
 
-  nav a {
-    display: block;
-    margin-bottom: 10px;
-  }
+  
 }
 
 @media only screen and (min-width: 760px) {
+  nav a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+
   .my-col-md-1 {
     width: 8.33%;
   }
@@ -245,7 +303,7 @@ footer {
   header,
   main {
     margin: auto;
-    max-width: 42rem;
+    max-width: 50rem;
   }
 
   nav a {
