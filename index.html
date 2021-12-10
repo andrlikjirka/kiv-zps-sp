@@ -6,7 +6,7 @@
     <meta name="description" content="Semestrální práce KIV/ZPS" />
     <meta name="keywords" content="kiv zps sp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Blog KIV/ZPS</title>
   </head>
   <body>
@@ -14,7 +14,7 @@
       <div class="row">
         <div class="my-col-sm-12 my-col-lg-12">
           <a href="./index.html">Blog</a>
-          <a href="">O mně</a>
+          <a href="./o-mne.html"> O mně </a>
         </div>
       </div>
     </nav>
@@ -22,35 +22,71 @@
     <main>
       <div class="row">
         <div class="my-col-sm-12 my-col-lg-12">
-          <h1>Blog</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam quis
-            quam. Maecenas lorem. Integer tempor. Etiam sapien elit, consequat
-            eget, tristique non, venenatis quis, ante.
-          </p>
-          <h2>Příspěvky</h2>
-          <article class="clanek">
-            <a href="./clanek-1.html">
-              <h3>Principy a služby Internetu</h3>
-              <p>
-                Zajímá vás, co znamená všude používané slovo Internet? Jaká je jeho
-                historie? Jaké jsou principy a služby Internetu? Odpovědi na všechny
-                tyto otázky naleznete v článku.
-              </p>
-            </a>
-          </article>
-          <hr class="oddeleni-prispevku" />
-          <article class="clanek">
-            <a href="">
-              <h3>Základní protokoly Internetu</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
-                quis quam. Maecenas lorem. Integer tempor. Etiam sapien elit,
-                consequat eget, tristique non, venenatis quis, ante.
-              </p>
-            </a>
-          </article>
-          <hr class="oddeleni-prispevku" />
+          <section>
+            <h1>Blog</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam
+              quis quam. Maecenas lorem. Integer tempor. Etiam sapien elit,
+              consequat eget, tristique non, venenatis quis, ante.
+            </p>
+            <h2>Příspěvky</h2>
+            <article class="clanek">
+              <a href="./clanek-1.html">
+                <h3>Principy a služby Internetu</h3>
+                <p>
+                  Zajímá vás, co znamená všude používané slovo Internet? Jaká je
+                  jeho historie? Jaké jsou principy a služby Internetu? Odpovědi
+                  na všechny tyto otázky naleznete v článku.
+                </p>
+              </a>
+            </article>
+            <hr class="oddeleni-prispevku" />
+            <article class="clanek">
+              <a href="./clanek-2.html">
+                <h3>Základní protokoly Internetu</h3>
+                <p>
+                  Zajímá vás, na základě jakých protokolů probíhá komunikace na
+                  Internetu? Chcete se dozvědět, jak tato komunikace funguje?
+                  Odpovědi na všechny tyto otázky naleznete v článku.
+                </p>
+              </a>
+            </article>
+            <hr class="oddeleni-prispevku" />
+          </section>
+
+          <section>
+            <h2>Vyhledávání</h2>
+            <div id="vyhledavani">
+              <div>
+                <h3>Hledejte co vás zajímá</h3>
+                <p>
+                  Využijte formulář pro hledání jakýchkoliv otázek, na které
+                  jste v příspěvcích nenašli odpovědi.
+                </p>
+              </div>
+              <form
+                method="GET"
+                action="https://www.google.com/search?"
+                target="_blank"
+              >
+                <input type="text" name="q" placeholder="Co vás zajímá?" />
+                <button type="submit">Vyhledat</button>
+              </form>
+            </div>
+          </section>
+
+          <div id="validator">
+            <h2>Validace HTML</h2>
+            <p>
+              Jedním z požadavků na tuto seminární práci je validní HTML kód.
+              Validitu je možné zkontrolovat zde na tomto
+              <a
+                href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrlikjirka.github.io%2Fkiv-zps-sp%2Findex.html"
+                target="_blank" 
+                >odkazu</a
+              >.
+            </p>
+          </div>
         </div>
       </div>
     </main>

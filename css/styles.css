@@ -24,10 +24,13 @@ html {
 }
 
 body {
-  background-color: rgb(247, 253, 255);
-  padding: 0px 32px;
+  background-color: rgba(231, 249, 255, 0.7);
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
+}
+
+main {
+  padding: 0px 32px;
 }
 
 nav {
@@ -48,8 +51,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(28, 28, 102);
-  color: white;
+  background-color: rgba(187, 216, 255, 0.6);
   border-radius: 7px;
 }
 
@@ -95,7 +97,7 @@ h3 {
 
 .clanek a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.9);
   margin-bottom: 2px;
 }
 
@@ -118,8 +120,13 @@ h3 {
   color: rgb(25, 25, 199);
 }
 
+.obsah li a:hover {
+  color: rgba(25, 25, 199, 0.8);
+}
+
 ul {
   list-style-position: inside;
+  padding-left: 10px;
 }
 
 ul li ul {
@@ -140,6 +147,81 @@ img {
 
 article {
   margin-bottom: 16px;
+}
+
+#vyhledavani {
+  background-color: rgba(187, 216, 255, 0.466);
+  border: 1px solid rgb(128, 162, 255);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 32px;
+  
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0 auto 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+form input {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 16px 10px 16px 10px;
+}
+
+form button {
+  all:unset;
+  background-color: rgba(224, 224, 224, 0.411);
+  padding: 4px 16px;
+  margin-right: 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: rgba(224, 224, 224, 0.692);
+}
+
+#mail {
+  color: inherit;
+}
+
+#mail:hover {
+  color: rgb(110, 173, 255);
+}
+
+table, th, td {
+  /*border: 1px solid rgba(187, 216, 255, 0.466);
+  border-collapse: collapse;*/
+}
+th {
+  background-color: rgba(187, 216, 255, 0.466);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+td {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/*tr:not(:first-child):hover {
+  background-color: rgb(26, 103, 202);
+}*/
+
+tr:nth-child(odd) {
+  background-color: rgba(187, 216, 255);
 }
 
 #zdroje {
