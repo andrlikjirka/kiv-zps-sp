@@ -202,15 +202,12 @@ form button:hover {
   color: rgb(110, 173, 255);
 }
 
-table, th, td {
-  /*border: 1px solid rgba(187, 216, 255, 0.466);
-  border-collapse: collapse;*/
-}
 th {
   background-color: rgba(187, 216, 255, 0.466);
   padding: 5px 10px;
   border-radius: 5px;
 }
+
 td {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 5px 10px;
@@ -243,6 +240,7 @@ tr:nth-child(odd) {
 }
 
 footer {
+  margin-top: 48px;
   padding: 50px 0 32px 0;
   text-align: center;
 }
