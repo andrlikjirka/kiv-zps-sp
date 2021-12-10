@@ -1,2 +1,2 @@
-# Semestrální práce z předmětu KIV-ZPS
+# Seminární práce z předmětu KIV-ZPS
 - Rozpracováno
