@@ -10,24 +10,26 @@
     <title>Blog KIV/ZPS</title>
   </head>
   <body>
+    <!-- Navigace stranky -->
     <nav>
       <div class="row">
-        <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+        <div class="col-sm-12 col-md-12 col-lg-12">
           <a href="./index.html">Blog</a>
           <a href="./o-mne.html">O mně</a>
         </div>
       </div>
     </nav>
-
+    <!-- Hlavni sekce strany s druhym prispevkem -->
     <main>
       <div class="row">
-        <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+        <div class="col-sm-12 col-md-12 col-lg-12">
           <h1>Základní protokoly Internetu</h1>
           <p>
             Zajímá vás, na základě jakých protokolů probíhá komunikace na
             Internetu? Chcete se dozvědět, jak tato komunikace funguje? Odpovědi
             na všechny tyto otázky naleznete v článku.
           </p>
+          <!-- Obsah prispevku s odkazy v ramci jedne stranky -->
           <h2>Obsah</h2>
           <ol class="obsah">
             <li><a href="#co-je-to-protokol">Co je to protokol?</a></li>
@@ -39,7 +41,7 @@
 
       <article id="co-je-to-protokol">
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <h2>Co je to protokol?</h2>
             <p>
               Provoz na síti musí být řízen určitými předpisy, aby data dorazila
@@ -75,7 +77,7 @@
 
       <article id="tcp-ip">
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <h2>Zásobník protokolů TCP/IP</h2>
             <p>
               Nejdůležitější skupinou protokolů na internetu je rodina TCP/IP.
@@ -89,7 +91,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-6 my-col-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <p>
               Vzhledem ke složitosti problémů je síťová komunikace rozdělena do
               tzv. vrstev, které znázorňují hierarchii činností. Výměna
@@ -104,7 +106,7 @@
               <li>vrstva síťového rozhraní</li>
             </ul>
           </div>
-          <div class="my-col-sm-12 my-col-md-6 my-col-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <img
               src="./img/architektura-tcp-ip.png"
               alt="architektura tcp/ip"
@@ -112,13 +114,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <h3>Zapouzdření do vrstev TCP/IP</h3>
             <img src="./img/vrstvy.png" alt="vrstvy" />
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-6 my-col-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>Vrstva síťového rozhraní</h3>
             <p>
               Nejnižší vrstva umožňuje přístup k fyzickému přenosovému médiu. Je
@@ -126,7 +128,7 @@
               Příklady sítí: Ethernet, Token ring, FDDI, 100BaseVG, X.25, SMDS.
             </p>
           </div>
-          <div class="my-col-sm-12 my-col-md-6 my-col-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>Síťová vrstva</h3>
             <p>
               Vrstva zajišťuje především síťovou adresaci, směrování a předávání
@@ -135,7 +137,7 @@
               Protokoly: IP, ARP, RARP, ICMP, IGMP, IGRP, IPSEC.
             </p>
           </div>
-          <div class="my-col-sm-12 my-col-md-6 my-col-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>Transportní vrstva</h3>
             <p>
               Poskytuje transportní služby pro kontrolu celistvosti dat:
@@ -144,7 +146,7 @@
               vrstva je implementována až v koncových zařízeních.
             </p>
           </div>
-          <div class="my-col-sm-12 my-col-md-6 my-col-lg-6">
+          <div class="col-sm-12 col-md-6 col-lg-6">
             <h3>Aplikační vrstva</h3>
             <p>
               Vrstva aplikací. Jedná se o protokoly, které slouží k přenosu
@@ -158,15 +160,15 @@
 
       <article id="protokoly">
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <h2>Přehled základních protokolů</h2>
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>IP (Internet Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = základní protokol síťové vrstvy a celého Internetu<br />
               - funguje na základě IP adres, kterou protokoly využívají k
@@ -177,10 +179,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>TCP (Transmission Control Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = nejpoužívanější protokol transportní vrstvy<br />
               - spojově orientovaný protokol, který zajišťuje vytvoření
@@ -192,10 +194,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>UDP (User Datagram Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               - poskytuje nespolehlivou transportní službu pro takové aplikace,
               které nepotřebují spolehlivost, jakou má protokol TCP<br />
@@ -205,10 +207,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>DHCP (Dynamic Host Configuration Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               - používán pro nastavení síťových parametrů hostitele tak, aby
               mohl používat IP protokol (IP adresy, adresy DNS serverů,
@@ -217,10 +219,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>ARP (Adress Resolution Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               - převádí adresu síťové úrovně na adresu linkové úrovně
               (nejčastěji převádí IPv4 adresu na MAC adresu)
@@ -228,10 +230,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>HTTP (Hypertext Transfer Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = základní protokol určený pro komunikaci mezi WWW servery<br />
               - slouží pro přenos hypertextových dokumentů na Internetu<br />
@@ -242,10 +244,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>FTP (File Transfer Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = protokol určený k přenosu dat mezi dvěma počítači nepřipojených
               na jedné síti<br />
@@ -255,10 +257,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>SMTP (Simple Mail Transfer Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = protokol určený k odesílání e-mailů<br />
               - poštovní klient se připojí k poštovnímu serveru a předá mu
@@ -267,10 +269,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>POP3 (Post Office Protocol 3)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = protokol určený pro stahování e-mailových zpráv ze vzdáleného
               serveru do poštovního klienta<br />
@@ -281,15 +283,15 @@
           </div>
         </div>
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4">
             <h3>IMAP (Internet Message Access Protocol)</h3>
           </div>
-          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+          <div class="col-sm-12 col-md-8 col-lg-8">
             <p>
               = protokol určený pro umožňuje vzdálený přístup k e-mailové
               schránce prostřednictvím e-mailového klienta.<br />
-              - protokol nestahuje e-maily do vačeho zařízení a data zůstávají dále na
-              serveru
+              - protokol nestahuje e-maily do vačeho zařízení a data zůstávají
+              dále na serveru
             </p>
           </div>
         </div>
@@ -297,31 +299,27 @@
 
       <article id="zdroje">
         <div class="row">
-          <div class="my-col-sm-12 my-col-md-12 my-col-lg-12">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <h3>Zdroje</h3>
-            <ul id="#zdroje">
-              <li>
-                <a
-                  href="https://www.zonercloud.cz/magazin/nejcasteji-pouzivane-sitove-protokoly"
-                  >https://www.zonercloud.cz/magazin/nejcasteji-pouzivane-sitove-protokoly</a
-                >
-              </li>
-              <li>
-                <a href="https://cs.wikipedia.org/wiki/Protokol_(informatika)"
-                  >https://cs.wikipedia.org/wiki/Protokol_(informatika)</a
-                >
-              </li>
-              <li>
-                <a href="https://cs.wikipedia.org/wiki/TCP/IP"
-                  >https://cs.wikipedia.org/wiki/TCP/IP</a
-                >
-              </li>
-            </ul>
+            <div id="#zdroje">
+              <a
+                href="https://www.zonercloud.cz/magazin/nejcasteji-pouzivane-sitove-protokoly"
+                >https://www.zonercloud.cz/magazin/nejcasteji-pouzivane-sitove-protokoly</a
+              >
+
+              <a href="https://cs.wikipedia.org/wiki/Protokol_(informatika)"
+                >https://cs.wikipedia.org/wiki/Protokol_(informatika)</a
+              >
+
+              <a href="https://cs.wikipedia.org/wiki/TCP/IP"
+                >https://cs.wikipedia.org/wiki/TCP/IP</a
+              >
+            </div>
           </div>
         </div>
       </article>
     </main>
-
+    <!-- Paticka webu -->
     <footer>
       <span id="copyright">&copy; Jiří Andrlík</span>
       <span id="footer-text">Seminární práce KIV/ZPS</span>
