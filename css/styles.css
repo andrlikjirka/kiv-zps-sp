@@ -168,14 +168,15 @@ form {
   flex-direction: row;
   align-items: center;
 }
-
+  
 form input {
   all: unset;
-  font: 16px system-ui;
+  font: 16px;
   height: 100%;
   width: 100%;
-  padding: 16px 10px 16px 10px;
+  margin: 16px 10px 16px 10px;
 }
+
 
 form button {
   all:unset;

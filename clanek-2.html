@@ -162,6 +162,137 @@
             <h2>Přehled základních protokolů</h2>
           </div>
         </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>IP (Internet Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = základní protokol síťové vrstvy a celého Internetu<br />
+              - funguje na základě IP adres, kterou protokoly využívají k
+              určení, do kterého zařízení mají doručit data.<br />
+              - pakety (datagramy) putují sítí nezávisle na sobě a samy tak
+              nezajišťují pořadí ani spolehlivost doručení
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>TCP (Transmission Control Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = nejpoužívanější protokol transportní vrstvy<br />
+              - spojově orientovaný protokol, který zajišťuje vytvoření
+              virtuálního okruhu mezi koncovými aplikacemi a umožňuje spolehlivý
+              a obousměrný přenos dat<br />
+              - protokol TCP tedy doplňuje IP protokol, protože garantuje
+              spolehlivost a správné pořadí doručení paketů
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>UDP (User Datagram Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              - poskytuje nespolehlivou transportní službu pro takové aplikace,
+              které nepotřebují spolehlivost, jakou má protokol TCP<br />
+              - protokol TCP tedy doplňuje IP protokol, protože garantuje
+              spolehlivost a správné pořadí doručení datagramů
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>DHCP (Dynamic Host Configuration Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              - používán pro nastavení síťových parametrů hostitele tak, aby
+              mohl používat IP protokol (IP adresy, adresy DNS serverů,
+              směrovací informace, ...)
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>ARP (Adress Resolution Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              - převádí adresu síťové úrovně na adresu linkové úrovně
+              (nejčastěji převádí IPv4 adresu na MAC adresu)
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>HTTP (Hypertext Transfer Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = základní protokol určený pro komunikaci mezi WWW servery<br />
+              - slouží pro přenos hypertextových dokumentů na Internetu<br />
+              - pro zajištění zabezbečené komunikace, autentizace a ochrany
+              přenášených dat se využívá jeho šifrovaná verze
+              <strong>HTTPS</strong>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>FTP (File Transfer Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = protokol určený k přenosu dat mezi dvěma počítači nepřipojených
+              na jedné síti<br />
+              - jeho rozšířená verze, která přidáním další vrstvy zajišťuje
+              bezpečný přenos dat po síti se jmenuje <strong>FTPS</strong>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>SMTP (Simple Mail Transfer Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = protokol určený k odesílání e-mailů<br />
+              - poštovní klient se připojí k poštovnímu serveru a předá mu
+              e-mail spolu se seznamem adres, na které ho má doručit
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>POP3 (Post Office Protocol 3)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = protokol určený pro stahování e-mailových zpráv ze vzdáleného
+              serveru do poštovního klienta<br />
+              - jeho hlavním znakem je to, že stáhne vždy celý email najednou a
+              po stažení do svého počítače (tzv. lokálně), uvolní místo ve
+              schránce na serveru
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-4">
+            <h3>IMAP (Internet Message Access Protocol)</h3>
+          </div>
+          <div class="my-col-sm-12 my-col-md-4 my-col-lg-8">
+            <p>
+              = protokol určený pro umožňuje vzdálený přístup k e-mailové
+              schránce prostřednictvím e-mailového klienta.<br />
+              - protokol nestahuje e-maily do vačeho zařízení a data zůstávají dále na
+              serveru
+            </p>
+          </div>
+        </div>
       </article>
 
       <article id="zdroje">
