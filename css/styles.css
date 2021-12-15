@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700");
 
 * {
+  font-family: IBM Plex Sans, Helvetica, sans-serif;
   scroll-behavior: smooth;
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +69,7 @@ p {
   line-height: inherit;
   color: rgba(68, 68, 68);
   padding-bottom: 16px;
-  
+  text-align: justify;
 }
 
 h2 {
@@ -234,6 +235,10 @@ tr:nth-child(odd) {
   font-size: 0.75rem;
   display: block;
   margin-bottom: 8px;
+}
+
+#zdroje a:hover {
+  text-decoration: underline;
 }
 
 footer {
